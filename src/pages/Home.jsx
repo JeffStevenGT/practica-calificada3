@@ -21,7 +21,7 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="w-full lg:w-1/2 px-6 sm:px-10 lg:px-0 mt-8 lg:mt-0">
+        <div className="w-full lg:w-1/2 sm:px-10 lg:px-0 mt-8 lg:mt-0">
           <img
             src="/img/1.home/illustration1.png"
             alt="Illustration"
