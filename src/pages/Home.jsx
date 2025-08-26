@@ -3,11 +3,9 @@ import React from "react";
 export default function Home() {
   return (
     <section className="h-auto lg:h-[88vh] flex flex-col justify-between">
-      {/* Hero principal */}
       <div className="flex flex-col lg:flex-row flex-1 items-center lg:items-start">
-        {/* Texto */}
-        <div className="w-full lg:w-1/2 px-6 pt-10 sm:px-10 lg:pl-[272px] lg:pt-[120px] space-y-4 text-center lg:text-left">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight bg-gradient-to-r from-[#A18CD1] to-[#6C63FF] bg-clip-text text-transparent">
+        <div className="w-full lg:w-1/2 px-6 pt-10 sm:px-10 lg:pl-[272px] lg:pt-[120px] space-y-2 text-center lg:text-left">
+          <h1 className="text-2xl sm:text-3xl lg:text-[40px] font-bold leading-tight bg-gradient-to-r from-[#A18CD1] to-[#6C63FF] bg-clip-text text-transparent">
             Bootstrap 5 theme
           </h1>
           <h2 className="text-gray-600 text-xl sm:text-2xl lg:text-3xl">
@@ -23,7 +21,6 @@ export default function Home() {
           </button>
         </div>
 
-        {/* Imagen */}
         <div className="w-full lg:w-1/2 px-6 sm:px-10 lg:px-0 mt-8 lg:mt-0">
           <img
             src="/img/1.home/illustration1.png"
@@ -33,7 +30,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Logos */}
       <section className="w-full mt-10 lg:mt-7 flex flex-wrap justify-center items-center gap-6 sm:gap-10 lg:gap-12 px-4 sm:px-6 lg:px-10 py-4 lg:h-[25%] shadow-[0_4px_6px_-5px_rgba(0,0,0,0.2)]">
         {["google", "netflix", "microsoft", "mailbuster", "themewagon"].map(
           (brand) => (
