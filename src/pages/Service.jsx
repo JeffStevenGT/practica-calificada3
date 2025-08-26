@@ -3,9 +3,7 @@ import React from "react";
 export default function Service() {
   return (
     <section className="relative w-full h-[93%] bg-gradient-to-r from-white to-blue-50 py-8 px-6 sm:px-10 lg:px-40 text-center -z-10">
-      <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4">
-        Service
-      </h2>
+      <h2 className="text-3xl font-semibold text-gray-800 mb-4">Service</h2>
       <p className="text-gray-500 max-w-xl mx-auto text-sm sm:text-[15px]">
         We offer youth with chances for career development in their practice. We
         also support a wide range of services to ensure client satisfaction.
